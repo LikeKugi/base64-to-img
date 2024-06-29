@@ -1,0 +1,30 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+
+    input {
+      flex-grow: 1;
+      border-radius: 8px 0 0 8px;
+    }
+
+    button {
+      border-radius: 0 8px 8px 0;
+    }
+  }
+}
+
+.reset {
+  padding-block: 1rem;
+  display: flex;
+
+  button {
+    flex-grow: 1;
+    border-radius: 8px;
+  }
+}
